@@ -2,6 +2,8 @@
 
 # fzf-bibtex
 
+> This fork improves caching over the original by using per-.bib caching, so when any .bib file changes it doesn’t have to recache everything from scratch. This is especially useful when working with very large .bib files (e.g., crypto.bib).
+> 
 A BibTeX source for fzf.
 
 - Blazingly fast, even with extremely large BibTeX files
